@@ -1,0 +1,42 @@
+.nav-bar {
+    width: 100%;
+    height: 15vh;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(128, 128, 128, .7);
+    box-shadow: rgba(0, 0, 0, 0.25) 3px 5px 5px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    &:hover {
+
+        background-color: rgba(128, 128, 128, .5);
+        transition: .7s;
+    }
+}
+
+;
+
+#ul-id {
+    font-family: monospace;
+    display: flex;
+
+}
+
+#li-id {
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 25px;
+border: 1px solid transparent;
+
+
+    &:hover {
+
+        border-bottom: 1px solid orangered;
+        transition: .6s;
+        cursor: pointer;
+
+    }
+
+}

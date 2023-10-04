@@ -1,0 +1,44 @@
+.main-body {
+    width: 79%;
+    float: right;
+
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    box-shadow: 1;
+}
+
+.body-tr th {
+
+    width: 80vh;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 18;
+    border: 1px solid black;
+
+}
+
+#one {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    color: white;
+    background-color: rgb(115, 117, 117);
+    opacity: 0.9;
+font-weight: bold;
+
+}
+
+
+
+tbody tr:nth-child(odd) {
+    color: white;
+    opacity: 0.9;
+
+    background-color: rgb(158, 157, 157);
+
+    font-weight: bold;
+
+}
